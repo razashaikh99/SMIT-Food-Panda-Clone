@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* Fonts import karein */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+@theme {
+    /* Fonts */
+    --font-sans: 'Inter', sans-serif;
+    --font-heading: 'Plus Jakarta Sans', sans-serif;
+
+    /* Colors */
+    --color-primary: #FF2B85;
+    --color-black: #000000;
+    --color-btn-hover: #C21760;
+    /* --color-secondary: #F8F9FA; */
+    /* --color-text-light: #6B7280; */
+}
