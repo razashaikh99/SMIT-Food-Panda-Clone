@@ -19,16 +19,13 @@ export default function ContactPage() {
         </div>
       </div>
 
-      {/* Contact Form Section */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12">
 
-            {/* Left Side - Form */}
             <div>
               <h2 className="text-3xl font-bold mb-8">Contact form</h2>
 
-              {/* Name Fields */}
               <div className="mb-6">
                 <label className="block text-sm font-semibold mb-2">
                   Name <span className="text-red-500">*</span>
@@ -55,7 +52,6 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              {/* Email Field */}
               <div className="mb-6">
                 <label className="block text-sm font-semibold mb-2">
                   Email <span className="text-red-500">*</span>
@@ -68,7 +64,6 @@ export default function ContactPage() {
                 />
               </div>
 
-              {/* Message Field */}
               <div className="mb-6">
                 <label className="block text-sm font-semibold mb-2">
                   Your message <span className="text-red-500">*</span>
@@ -81,7 +76,6 @@ export default function ContactPage() {
                 ></textarea>
               </div>
 
-              {/* Submit Button */}
               <button
                 type="submit"
                 className="sec-btn"
@@ -90,10 +84,8 @@ export default function ContactPage() {
               </button>
             </div>
 
-            {/* Right Side - Panda Image */}
             <div className="flex items-center justify-center">
               <div className="w-full max-w-md">
-                {/* Panda illustration placeholder */}
                 <img src={ContactImg2} alt="" />
               </div>
             </div>
@@ -102,7 +94,6 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Help Center Section */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-gray-700 mb-2">Got a question about your order?</p>
