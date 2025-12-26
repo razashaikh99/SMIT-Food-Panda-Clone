@@ -15,3 +15,11 @@
     /* --color-secondary: #F8F9FA; */
     /* --color-text-light: #6B7280; */
 }
+
+.sec-btn {
+    @apply bg-pink-500 text-white px-8 py-3 rounded-full hover:bg-pink-600 transition font-bold;
+}
+
+.crousel-card-bg {
+   @apply absolute inset-0 bg-gradient-to-t from-black to-transparent;
+}

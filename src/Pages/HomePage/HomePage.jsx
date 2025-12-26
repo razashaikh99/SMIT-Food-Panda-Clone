@@ -1,5 +1,18 @@
 import React from 'react';
+import HeroSecImg from '../../assets/images/hero-sec-img.webp'
+import SecImg1 from '../../assets/images/sec-img-1.webp'
+import AppStore from '../../assets/images/app-store.png'
+import GooglePlay from '../../assets/images/google-play.png'
+import AppGallery from '../../assets/images/app-gallery.png'
+import SecImg2 from '../../assets/images/sec-img-2.webp'
+import SecImg3 from '../../assets/images/sec-img-3.webp'
+import SecImg4 from '../../assets/images/sec-img-4.webp'
+import Crousel1 from '../../assets/images/crousel-1.jpg'
+import Crousel2 from '../../assets/images/crousel-2.jpg'
+import Crousel3 from '../../assets/images/crousel-3.webp'
+import Crousel4 from '../../assets/images/crousel-4.webp'
 import { Menu, X, ChevronRight, Apple, Play } from 'lucide-react';
+
 
 export default function HomePage() {
   const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
@@ -8,51 +21,45 @@ export default function HomePage() {
     <div className="min-h-screen bg-white">
 
       {/* Hero Section */}
-      <section className="relative h-96 bg-gradient-to-r from-pink-100 to-purple-100">
-        <div className="absolute inset-0 bg-black bg-opacity-40"></div>
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center">
-          <div className="text-white">
-            <h1 className="text-5xl md:text-6xl font-bold mb-4">
-              food<br />
-              and groceries<br />
-              in a tap
-            </h1>
+      <div className="relative">
+        <img className='w-full h-120 object-cover' src={HeroSecImg} alt="Hero Background" />
+        <div className="absolute inset-0">
+          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center">
+            <div className="text-white">
+              <h1 className="text-5xl md:text-7xl pt-18 font-extrabold mb-4">
+                food<br />
+                and groceries<br />
+                in a tap
+              </h1>
+            </div>
           </div>
         </div>
-      </section>
+      </div>
 
       {/* Mission Section */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold mb-6">
-            We're here to help you<br />
-            live life the panda way.
+            We’re here to help you <br /> live life the panda way. <br />
+            Spend more time doing what you love – <br /> we’ll take care of tasty meals, fresh <br /> groceries and new flavours.
           </h2>
-          <p className="text-xl text-gray-700 max-w-2xl">
-            Spend more time doing what you love – we'll take care of tasty meals, fresh groceries and new flavours.
-          </p>
         </div>
       </section>
 
       {/* Next Generation Delivery */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="bg-pink-200 rounded-2xl p-8 h-80 flex items-center justify-center">
-              <div className="text-center">
-                <div className="text-6xl mb-4">📱</div>
-                <p className="text-lg font-semibold">Mobile App Preview</p>
-              </div>
-            </div>
+            <img src={SecImg1} alt="" />
             <div>
-              <h2 className="text-4xl font-bold mb-6">
+              <h2 className="text-5xl font-bold mb-6">
                 Meet the next<br />
                 generation of delivery!
               </h2>
-              <p className="text-gray-700 mb-6">
-                What makes quick commerce quick? We could be held personalised delivery solutions for our customers, partners and employees. Learn how our Glownar Autonomy devices drive speed and innovation across ten markets in Asia.
+              <p className="mb-6">
+                What makes quick commerce quick? We stand for swift personalised <br /> delivery solutions for our customers, partners and employees. Learn <br /> how we empower authentic lifestyles and drive innovation across the <br /> globe.
               </p>
-              <button className="bg-pink-500 text-white px-8 py-3 rounded-full hover:bg-pink-600 transition">
+              <button className="sec-btn">
                 About
               </button>
             </div>
@@ -65,54 +72,34 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl font-bold mb-6">Taste the convenience.</h2>
-              <p className="text-gray-700 mb-8">
+              <h2 className="text-5xl font-bold mb-6">Taste the convenience.</h2>
+              <p className="mb-8">
                 Try us out! Delicious food and speedy groceries are at your fingertips. Go ahead, download our app.
               </p>
-              <div className="flex gap-4">
-                <button className="bg-black text-white px-6 py-3 rounded-lg flex items-center gap-2 hover:bg-gray-800 transition">
-                  <Apple size={24} />
-                  <div className="text-left text-xs">
-                    <div>Download on the</div>
-                    <div className="font-semibold text-sm">App Store</div>
-                  </div>
-                </button>
-                <button className="bg-black text-white px-6 py-3 rounded-lg flex items-center gap-2 hover:bg-gray-800 transition">
-                  <Play size={24} />
-                  <div className="text-left text-xs">
-                    <div>GET IT ON</div>
-                    <div className="font-semibold text-sm">Google Play</div>
-                  </div>
-                </button>
+              <div className="flex flex-col lg:flex-row justify-start items-start gap-4">
+                <img src={AppStore} alt="" />
+                <img src={GooglePlay} alt="" />
+                <img src={AppGallery} alt="" />
+
               </div>
             </div>
-            <div className="bg-pink-100 rounded-2xl h-96 flex items-center justify-center">
-              <div className="text-center">
-                <div className="text-6xl mb-4">🛵</div>
-                <p className="text-lg font-semibold">Delivery Image</p>
-              </div>
-            </div>
+            <img src={SecImg2} alt="" />
           </div>
         </div>
       </section>
 
       {/* Find the job */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="bg-gray-200 rounded-2xl h-96 flex items-center justify-center">
-              <div className="text-center">
-                <div className="text-6xl mb-4">👥</div>
-                <p className="text-lg font-semibold">Team Meeting</p>
-              </div>
-            </div>
+            <img src={SecImg3} alt="" />
             <div>
-              <h2 className="text-4xl font-bold mb-6">Find the job you'd love</h2>
-              <p className="text-gray-700 mb-2">Hungry to make a difference? There's a seat at our table!</p>
-              <p className="text-gray-700 mb-6">
-                Find out how we connect tech, products, projects and people – explore international career opportunities at foodpanda.
+              <h2 className="text-5xl font-bold mb-6">Find the job you'd love</h2>
+              <p className="mb-8">Hungry to make a difference? There's a seat at our table!</p>
+              <p className="mb-6">
+                Find out how we connect tech, products, projects and people – <br /> explore international career opportunities at foodpanda.
               </p>
-              <button className="bg-pink-500 text-white px-8 py-3 rounded-full hover:bg-pink-600 transition">
+              <button className="sec-btn">
                 Join us!
               </button>
             </div>
@@ -120,93 +107,97 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Have you heard */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-center mb-4">Have you heard?</h2>
-          <p className="text-center text-gray-700 mb-12">
+          <h2 className="text-5xl font-bold text-center mb-4">Have you heard?</h2>
+          <p className="text-center mb-12">
             The industry is changing fast! Stay up to date with foodpanda's plans. Catch up on the news, views, updates and reports here.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-            {[1, 2, 3, 4].map((item) => (
-              <div key={item} className="bg-pink-500 text-white rounded-2xl p-6 h-64 flex items-end">
-                <p className="font-semibold">foodpanda news article {item}</p>
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+
+            <div className="relative rounded-3xl p-6 h-110 flex flex-col overflow-hidden">
+              <img
+                src={Crousel1}
+                alt="Background"
+                className="absolute inset-0 w-full h-full object-cover"
+              />
+              <div className="crousel-card-bg"></div>
+              <div className="relative z-10 text-white pt-6">
+                <p className="font-semibold">Merchants</p>
+                <p className='font-bold text-2xl py-4'>
+                  foodpanda <br /> Malaysia <br /> launches <br /> 'Jejak Panda' <br /> to provide <br /> accessible <br /> income <br /> opportunities
+                </p>
+                <p>17.12.2025</p>
               </div>
-            ))}
+            </div>
+            <div className="relative rounded-3xl p-6 h-110 flex flex-col overflow-hidden">
+              <img
+                src={Crousel2}
+                alt="Background"
+                className="absolute inset-0 w-full h-full object-cover"
+              />
+              <div className="crousel-card-bg"></div>
+              <div className="relative z-10 text-white pt-6">
+                <p className="font-semibold">Press Releases</p>
+                <p className='font-bold text-2xl py-4'>
+                  foodpanda <br /> strengthens <br /> merchant care <br /> with record <br /> onboarding <br /> milestone in <br /> Asia.
+                </p>
+                <p>13.08.2025</p>
+              </div>
+            </div>
+            <div className="relative rounded-3xl p-6 h-110 flex flex-col overflow-hidden">
+              <img
+                src={Crousel3}
+                alt="Background"
+                className="absolute inset-0 w-full h-full object-cover"
+              />
+              <div className="crousel-card-bg"></div>
+              <div className="relative z-10 text-white pt-6">
+                <p className="font-semibold">Merchants</p>
+                <p className='font-bold text-2xl py-4'>
+                  foodpanda <br /> Singapore <br /> launches <br /> inaugural Rider <br /> Safety Month <br /> in partnership <br /> with <br /> Traffic Police
+                </p>
+                <p>17.12.2025</p>
+              </div>
+            </div>
+            <div className="relative rounded-3xl p-6 h-110 flex flex-col overflow-hidden">
+              <img
+                src={Crousel4}
+                alt="Background"
+                className="absolute inset-0 w-full h-full object-cover"
+              />
+              <div className="crousel-card-bg"></div>
+              <div className="relative z-10 text-white pt-6">
+                <p className="font-semibold">Business</p>
+                <p className='font-bold text-2xl py-4'>
+                  foodpanda <br /> brings unmatched <br /> value to <br /> pandapro members <br /> with one-of-a-kind <br /> ride-hailing partnerships <br /> across Asia.
+                </p>
+                <p>21.11.2025</p>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
 
       {/* Feed your team */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl font-bold mb-6">Feed your team.</h2>
-              <p className="text-gray-700 mb-8">
+              <p className="mb-8">
                 Treat your team and team to their favourite meals. Let teams pick & explore flavour reimagined food delivery options and tasty employee perks.
               </p>
-              <button className="bg-pink-500 text-white px-8 py-3 rounded-full hover:bg-pink-600 transition">
+              <button className="sec-btn">
                 Explore
               </button>
             </div>
-            <div className="bg-black rounded-2xl h-96 flex items-center justify-center relative overflow-hidden">
-              <div className="text-white text-center">
-                <div className="text-2xl font-bold mb-2">foodpanda</div>
-                <div className="text-lg">for business</div>
-              </div>
-            </div>
+            <img src={SecImg4} alt="" />
           </div>
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-black text-white py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center gap-2 mb-8">
-            <div className="w-8 h-8 bg-pink-500 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-sm">fp</span>
-            </div>
-            <span className="text-xl font-bold text-pink-500">foodpanda</span>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-            <div>
-              <h3 className="font-bold mb-4">Navigate</h3>
-              <ul className="space-y-2 text-gray-400">
-                <li><a href="#" className="hover:text-pink-500">Home</a></li>
-                <li><a href="#" className="hover:text-pink-500">About</a></li>
-                <li><a href="#" className="hover:text-pink-500">Newsroom</a></li>
-                <li><a href="#" className="hover:text-pink-500">Partners</a></li>
-                <li><a href="#" className="hover:text-pink-500">Careers</a></li>
-              </ul>
-            </div>
-            
-            <div>
-              <h3 className="font-bold mb-4">Collaborate</h3>
-              <ul className="space-y-2 text-gray-400">
-                <li><a href="#" className="hover:text-pink-500">Explore careers</a></li>
-                <li><a href="#" className="hover:text-pink-500">Become a rider</a></li>
-                <li><a href="#" className="hover:text-pink-500">Partner with us</a></li>
-              </ul>
-            </div>
-            
-            <div>
-              <h3 className="font-bold mb-4">Follow us on</h3>
-              <div className="flex gap-4 text-gray-400">
-                <a href="#" className="hover:text-pink-500">f</a>
-                <a href="#" className="hover:text-pink-500">in</a>
-                <a href="#" className="hover:text-pink-500">ig</a>
-              </div>
-            </div>
-          </div>
-          
-          <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm">
-            <p>Copyright © 2025 foodpanda</p>
-            <a href="#" className="hover:text-pink-500">Privacy Policy</a>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }
