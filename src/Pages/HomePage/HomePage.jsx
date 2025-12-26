@@ -19,7 +19,7 @@ export default function HomePage() {
 
       <div className="relative">
         <img className='w-full h-120 object-cover' src={HeroSecImg} alt="Hero Background" />
-        <div className="absolute inset-0">
+        <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent">
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center">
             <div className="text-white">
               <h1 className="text-5xl md:text-7xl pt-18 font-extrabold mb-4 shadow-black text-shadow-lg">
@@ -176,7 +176,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl font-bold mb-6">Feed your team.</h2>
+              <h2 className="text-5xl font-bold mb-6">Feed your team.</h2>
               <p className="mb-8">
                 Treat your team and team to their favourite meals. Let teams pick & explore flavour reimagined food delivery options and tasty employee perks.
               </p>
