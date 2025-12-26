@@ -20,7 +20,6 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-white">
 
-      {/* Hero Section */}
       <div className="relative">
         <img className='w-full h-120 object-cover' src={HeroSecImg} alt="Hero Background" />
         <div className="absolute inset-0">
@@ -36,7 +35,6 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* Mission Section */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold mb-6">
@@ -46,7 +44,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Next Generation Delivery */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -67,7 +64,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Taste the convenience */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -88,7 +84,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Find the job */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -180,7 +175,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Feed your team */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
