@@ -11,11 +11,8 @@ import Crousel1 from '../../assets/images/crousel-1.jpg'
 import Crousel2 from '../../assets/images/crousel-2.jpg'
 import Crousel3 from '../../assets/images/crousel-3.webp'
 import Crousel4 from '../../assets/images/crousel-4.webp'
-import { Menu, X, ChevronRight, Apple, Play } from 'lucide-react';
-
 
 export default function HomePage() {
-  const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
 
   return (
     <div className="min-h-screen bg-white">
@@ -25,9 +22,9 @@ export default function HomePage() {
         <div className="absolute inset-0">
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center">
             <div className="text-white">
-              <h1 className="text-5xl md:text-7xl pt-18 font-extrabold mb-4">
-                food<br />
-                and groceries<br />
+              <h1 className="text-5xl md:text-7xl pt-18 font-extrabold mb-4 shadow-black text-shadow-lg">
+                food <br />
+                and groceries <br />
                 in a tap
               </h1>
             </div>
