@@ -16,20 +16,20 @@ export default function Footer() {
             <div>
               <h3 className="font-bold mb-4">Navigate</h3>
               <ul className="space-y-1">
-                <li><a href="#" className="hover:text-pink-500">Home</a></li>
-                <li><a href="#" className="hover:text-pink-500">About</a></li>
-                <li><a href="#" className="hover:text-pink-500">Newsroom</a></li>
-                <li><a href="#" className="hover:text-pink-500">Partners</a></li>
-                <li><a href="#" className="hover:text-pink-500">Careers</a></li>
+                <li><a href="#" className="hover:text-primary">Home</a></li>
+                <li><a href="#" className="hover:text-primary">About</a></li>
+                <li><a href="#" className="hover:text-primary">Newsroom</a></li>
+                <li><a href="#" className="hover:text-primary">Partners</a></li>
+                <li><a href="#" className="hover:text-primary">Careers</a></li>
               </ul>
             </div>
 
             <div>
               <h3 className="font-bold mb-4">Collaborate</h3>
               <ul className="space-y-1">
-                <li><a href="#" className="hover:text-pink-500">Explore careers</a></li>
-                <li><a href="#" className="hover:text-pink-500">Become a rider</a></li>
-                <li><a href="#" className="hover:text-pink-500">Partner with us</a></li>
+                <li><a href="#" className="hover:text-primary">Explore careers</a></li>
+                <li><a href="#" className="hover:text-primary">Become a rider</a></li>
+                <li><a href="#" className="hover:text-primary">Partner with us</a></li>
               </ul>
             </div>
 
@@ -45,7 +45,7 @@ export default function Footer() {
 
           <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm">
             <p>Copyright © 2025 foodpanda</p>
-            <Link to="/" className="hover:text-pink-500">Privacy Policy</Link>
+            <Link to="/" className="hover:text-primary">Privacy Policy</Link>
           </div>
         </div>
       </footer>
