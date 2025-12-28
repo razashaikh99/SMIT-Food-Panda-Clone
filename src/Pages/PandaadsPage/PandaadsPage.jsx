@@ -299,47 +299,60 @@ export default function PandaadsPage() {
       {/* Brands Section */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-center mb-12">Brands excelling with us</h2>
+          <h2 className="text-5xl font-bold text-center mb-12">Brands excelling with us</h2>
 
           {/* Brand Logos Grid */}
-          <div className="grid grid-cols-3 md:grid-cols-6 gap-8 items-center">
-            <div className="bg-gray-100 h-20 rounded-lg flex items-center justify-center">
-              <p className="text-gray-400 text-sm">amazon</p>
+          <div className="grid grid-cols-3 md:grid-cols-8 gap-8 items-center">
+            <div className="h-25 rounded-lg flex items-center justify-center">
+              <img className='w-60' src="https://pandaads.foodpanda.com/wp-content/uploads/2024/08/1.png" />
             </div>
-            <div className="bg-gray-100 h-20 rounded-lg flex items-center justify-center">
-              <p className="text-gray-400 text-sm">Heineken</p>
+            <div className="h-25 rounded-lg flex items-center justify-center">
+              <img className='w-60' src="https://pandaads.foodpanda.com/wp-content/uploads/2024/08/2.png" />
             </div>
-            <div className="bg-gray-100 h-20 rounded-lg flex items-center justify-center">
-              <p className="text-gray-400 text-sm">NETFLIX</p>
+            <div className="h-25 rounded-lg flex items-center justify-center">
+              <img className='w-60' src="https://pandaads.foodpanda.com/wp-content/uploads/2024/08/3.png" />
             </div>
-            <div className="bg-gray-100 h-20 rounded-lg flex items-center justify-center">
-              <p className="text-gray-400 text-sm">SAMSUNG</p>
+            <div className="h-25 rounded-lg flex items-center justify-center">
+              <img className='w-60' src="https://pandaads.foodpanda.com/wp-content/uploads/2024/08/4.png" />
             </div>
-            <div className="bg-gray-100 h-20 rounded-lg flex items-center justify-center">
-              <p className="text-gray-400 text-sm">citi</p>
+            <div className="h-25 rounded-lg flex items-center justify-center">
+              <img className='w-60' src="https://pandaads.foodpanda.com/wp-content/uploads/2024/08/5.png" />
             </div>
-            <div className="bg-gray-100 h-20 rounded-lg flex items-center justify-center">
-              <p className="text-gray-400 text-sm">HUAWEI</p>
+            <div className="h-25 rounded-lg flex items-center justify-center">
+              <img className='w-60' src="https://pandaads.foodpanda.com/wp-content/uploads/2024/08/6.png" />
             </div>
-            <div className="bg-gray-100 h-20 rounded-lg flex items-center justify-center">
-              <p className="text-gray-400 text-sm">Coca-Cola</p>
+            <div className="h-25 rounded-lg flex items-center justify-center">
+              <img className='w-60' src="https://pandaads.foodpanda.com/wp-content/uploads/2024/08/7.png" />
             </div>
-            <div className="bg-gray-100 h-20 rounded-lg flex items-center justify-center">
-              <p className="text-gray-400 text-sm">Nespresso</p>
+            <div className="h-25 rounded-lg flex items-center justify-center">
+              <img className='w-60' src="https://pandaads.foodpanda.com/wp-content/uploads/2024/08/8.png" />
             </div>
-            <div className="bg-gray-100 h-20 rounded-lg flex items-center justify-center">
-              <p className="text-gray-400 text-sm">Starbucks</p>
+            <div className="h-25 rounded-lg flex items-center justify-center">
+              <img className='w-60' src="https://pandaads.foodpanda.com/wp-content/uploads/2024/08/9.png" />
             </div>
-            <div className="bg-gray-100 h-20 rounded-lg flex items-center justify-center">
-              <p className="text-gray-400 text-sm">VISA</p>
+            <div className="h-25 rounded-lg flex items-center justify-center">
+              <img className='w-60' src="https://pandaads.foodpanda.com/wp-content/uploads/2024/08/10.png" />
             </div>
-            <div className="bg-gray-100 h-20 rounded-lg flex items-center justify-center">
-              <p className="text-gray-400 text-sm">MARS</p>
+            <div className="h-25 rounded-lg flex items-center justify-center">
+              <img className='w-60' src="https://pandaads.foodpanda.com/wp-content/uploads/2024/08/11.png" />
             </div>
-            <div className="bg-gray-100 h-20 rounded-lg flex items-center justify-center">
-              <p className="text-gray-400 text-sm">Disney+</p>
+            <div className="h-25 rounded-lg flex items-center justify-center">
+              <img className='w-60' src="https://pandaads.foodpanda.com/wp-content/uploads/2024/08/12.png" />
+            </div>
+            <div className="h-25 rounded-lg flex items-center justify-center">
+              <img className='w-60' src="https://pandaads.foodpanda.com/wp-content/uploads/2024/08/13.png" />
+            </div>
+            <div className="h-25 rounded-lg flex items-center justify-center">
+              <img className='w-60' src="https://pandaads.foodpanda.com/wp-content/uploads/2024/08/14.png" />
+            </div>
+            <div className="h-25 rounded-lg flex items-center justify-center">
+              <img className='w-60' src="https://pandaads.foodpanda.com/wp-content/uploads/2024/08/15.png" />
+            </div>
+            <div className="h-25 rounded-lg flex items-center justify-center">
+              <img className='w-60' src="https://pandaads.foodpanda.com/wp-content/uploads/2024/08/16.png" />
             </div>
           </div>
+
         </div>
       </section>
 
