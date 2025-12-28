@@ -19,7 +19,7 @@ export default function Navbar() {
 
                     <div className="h-full flex justify-between items-center gap-8">
                         {/* Desktop Navigation - Hidden on mobile */}
-                        <div className="hidden lg:flex justify-center items-center gap-6 font-bold text-gray-800">
+                        <div className="hidden lg:flex justify-center items-center gap-6 font-bold">
                             <Link to="/" className='hover:text-primary transition-colors'>Home
                             </Link>
                             <Link to="/about" className="hover:text-primary transition-colors">About</Link>

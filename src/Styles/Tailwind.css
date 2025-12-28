@@ -17,9 +17,13 @@
 }
 
 .sec-btn {
-    @apply bg-primary text-white px-8 py-3 rounded-full hover:bg-pink-600 transition font-bold;
+    @apply bg-primary text-white px-8 py-3 rounded-full hover:bg-pink-600 transition font-bold cursor-pointer;
+}
+
+.sec-btn-2 {
+    @apply bg-white text-primary px-8 py-3 rounded-full hover:bg-gray-200 transition font-bold cursor-pointer;
 }
 
 .crousel-card-bg {
-   @apply absolute inset-0 bg-gradient-to-t from-black to-transparent;
+    @apply absolute inset-0 bg-gradient-to-t from-black to-transparent;
 }

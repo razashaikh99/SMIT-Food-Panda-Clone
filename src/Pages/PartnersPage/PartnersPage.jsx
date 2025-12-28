@@ -84,9 +84,9 @@ export default function PartnersPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-5xl font-bold mb-6">
-                Are you ready to<br />
-                expand your reach<br />
-                and connect with<br />
+                Are you ready to <br />
+                expand your reach <br />
+                and connect with <br />
                 new customers?
               </h2>
               <p className="text-lg text-gray-700 mb-8">

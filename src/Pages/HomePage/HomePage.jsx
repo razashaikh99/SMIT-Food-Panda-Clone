@@ -17,7 +17,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-white">
 
-      <div className="relative">
+      <section className="relative">
         <img className='w-full h-120 object-cover' src={HeroSecImg} alt="Hero Background" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent">
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center">
@@ -30,7 +30,7 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
